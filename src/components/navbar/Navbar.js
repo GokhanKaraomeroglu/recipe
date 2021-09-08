@@ -14,7 +14,7 @@ const Navbar = () => {
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink to= {{pathname: 'https://github.com/orgs/clarusway/dashboard'}}
+        <MenuLink to= {{pathname: 'https://github.com/HimmelKonig'}}
 				target = 'blank'
 				rel= 'noopener noreferrer'
 				>

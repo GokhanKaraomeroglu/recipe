@@ -1,14 +1,11 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar'
-
+import "./App.css";
+import AppRouter from "./router/AppRouter";
 
 const App = () => {
-  retun(
-    <div>
-      <Navbar/>
-    </div>
-    
-    
-    )
-}
+  return (
+    <AppRouter />
+
+  )
+
+};
 export default App;

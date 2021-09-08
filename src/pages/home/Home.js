@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Header from "../../components/header/Header";
 import axios from "axios";
-import { MainContainer } from "./HomeStyle";
 import RecipeCardComp from './RecipeCardComp'; 
+import homeSvg from '../../assets/home.svg';
+import { MainContainer, HomeImg, ImgDiv } from './HomeStyle';
+
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
 const APP_ID = "acc137f1";
 const APP_KEY = "1ae558907815a5d451220fa6fd8dbfae";
@@ -42,7 +44,11 @@ const Home = () => {
             <RecipeCardComp key={index} recipe={recipe?.recipe} />
           ))}
         </MainContainer>
-      ) : null}
+      ) : (
+        <ImgDiv>
+          <HomeImg src={homeSvg} />
+        </ImgDiv>
+      )}
     </div>
   );
 };

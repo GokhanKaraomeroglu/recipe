@@ -1,8 +1,6 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar'
 
-
-const App = () => {
+const Navbar = () => {
   retun(
     <div>
       <Navbar/>
@@ -11,4 +9,4 @@ const App = () => {
     
     )
 }
-export default App;
+export default Navbar;

@@ -1,3 +1,4 @@
+https://github.com/HimmelKonig/recipe/blob/main/src/assets/RecipeApp.png
 
 # Getting Started with Create React App
 
